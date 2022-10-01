@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.inputBx
+{
+    display: flex;
+}
+.inputBx input
+{
+    padding: 10px ;
+    border: none;
+    box-shadow:  0 0 4px rgba(0,0,0,.4);
+    outline: none;
+    width: 300px;
+    font-size: 16px;
+    font-weight: italic;
+    font-family: cursive;
+}
+.inputBx .icon
+{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    box-shadow:  0 0 4px rgba(0,0,0,.4);
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.inputBx .icon i
+{
+    pointer-events: none;
+}
